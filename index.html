@@ -3,30 +3,49 @@
     <script src= "index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     <style>
+        body{
+            background-image: url(https://blog.arenastage.org/wp-content/uploads/2023/01/tarot-background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #05424e;
+            margin: 0;
+        }
         h1{
-            font-family: 'Berkshire Swash', cursive, Arial, Helvetica, sans-serif;
+            font-family: font-family: 'Cinzel', serif; Arial, Helvetica, sans-serif;
             color: #e32626;
+            font-size: 6em;
         }
-        p {
-            font-family: Arial, Helvetica, sans-serif;
+        #fortune {
+            font-family: font-family: 'Cinzel', serif; Arial, Helvetica, sans-serif;
+            font-size: 6em;
+            color: #d4a45d;
         }
-        .card {
-            background-color: #fff698;
-            max-width: 400px;
-            min-height: 180px;
+        .prediction {
             text-align: center;
-            padding: 1em;
+            padding: 2em;
             margin: auto;
+            position: absolute;
+            top: 55%;
+        }
+        .email-signup {
+            padding: 0 1em;
+            font-size: 3em;
+            color: #d4a45d;
+        }
+        .email-signup a{
+            color: #d4a45d;
         }
     </style>
 </head>
 <body onload="getFortune()">
     <body>
-        <div class="card">
-            <h1>Your Fortune</h1>
+        <div class="prediction">
+            <!-- <h1>Your Fortune</h1> -->
             <p id="fortune"></p>
+            <!-- <p class="">- The Amazing Karnak</p> -->
+            <p class="email-signup">Fulfill your destiny. <a href="https://pages.wordfly.com/arenastage/pages/Subscribe/">Sign up to our newsletter</a></p>
         </div>
       </body>
 </body>
