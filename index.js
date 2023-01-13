@@ -1,4 +1,4 @@
-const randomNumber = Math.floor(Math.random() * 365)
+const randomNumber = Math.floor(Math.random() * 442)
 
 function getFortune() {
     fetch("./data.json")
