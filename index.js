@@ -1,6 +1,5 @@
-const randomNumber = Math.floor(Math.random() * 442)
-
 function getFortune() {
+    const randomNumber = Math.floor(Math.random() * 383)
     fetch("./data.json")
     .then((res) => {
         return res.json();
